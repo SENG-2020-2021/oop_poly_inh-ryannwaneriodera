@@ -1,11 +1,11 @@
 import java.util.Scanner;
-//Complete this program that the user will be able to choose the quadilateral it wants to calculate its perimeter and area
+
 
 class Main {
   public static void main(String[] args) {
-   char quad; //Declare a char to store the chosen quadilateral
-Scanner sc=new Scanner(System.in);
-Scanner scan = new Scanner(System.in);
+   char quad; 
+   Scanner sc=new Scanner(System.in);
+   Scanner scan = new Scanner(System.in);
    System.out.println("1.rhombus\n2.square\n3.trapezoid\n4.rectangle\n5.parallelogram");
    System.out.print("enter choice:");
    quad=sc.next().charAt(0);
@@ -111,16 +111,14 @@ Scanner scan = new Scanner(System.in);
     
     
     
-    //using a switch check what the user selected and use it to calculate the perimeter and area of the desired quadilateral
 
-    //this should be in the parallelogram case
    
 
 
   }
 }
 
-//Create class for Rhombus
+
  class Rhombus extends Quadilateral{
   private float side1;
   private float side2;
@@ -147,7 +145,7 @@ Scanner scan = new Scanner(System.in);
 
 }
 
-//Create class for square
+
 class Square extends Quadilateral{
    private float side1;
 
@@ -171,7 +169,7 @@ public Square(float s1){
 
 
 
-//create class for Rectangle
+
 class Rectangle extends Quadilateral{
   private float length;
   private float breadth;
