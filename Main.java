@@ -184,6 +184,10 @@ class Rectangle extends Quadilateral{
     public float area(){
     return length*breadth;
   }
+
+    public float calculatePerimeter(){
+    return 2*(length+breadth);
+  }
 }
 
 class Trapezoid extends Quadilateral{
