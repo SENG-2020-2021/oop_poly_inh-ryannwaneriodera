@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//inheritance was performed on all my classes. all variables were already declared in the base class and reused by all the other classes.
 class Main {
   public static void main(String[] args) {
 		char quad; 
